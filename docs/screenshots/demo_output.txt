@@ -1,0 +1,20 @@
+=== Divide & Conquer Algorithms: Demo ===
+
+MergeSort input:  [30, 63, -52, -16, 70, 25, 5, 18, 19, -7, 82, 2, -24, -8, -24, -68, -44, 70, 43, -91]
+MergeSort output: [-91, -68, -52, -44, -24, -24, -16, -8, -7, 2, 5, 18, 19, 25, 30, 43, 63, 70, 70, 82]
+Correct: true | matches Arrays.sort: true
+Metrics: comparisons=87, swaps=56, recursiveCalls=2, maxDepth=1
+
+QuickSort input:  [-100, -37, -74, 13, -57, -59, -70, -42, 87, -54, 30, 56, -70, -15, -83, 27, -88, -7, 13, 64]
+QuickSort output: [-100, -88, -83, -74, -70, -70, -59, -57, -54, -42, -37, -15, -7, 13, 13, 27, 30, 56, 64, 87]
+Correct: true | matches Arrays.sort: true
+Metrics: comparisons=69, swaps=44, recursiveCalls=3, maxDepth=0
+
+Select k=10 -> 13 | Arrays.sort(a)[k] = 13 | match: true
+Metrics: comparisons=104, swaps=75, recursiveCalls=8, maxDepth=4
+
+ClosestPair (fast):  (303.0905251973204, 559.8563340822108) - (307.56860888393646, 555.0006900550454) dist=6.605339690196359
+ClosestPair (brute): (303.0905251973204, 559.8563340822108) - (307.56860888393646, 555.0006900550454) dist=6.605339690196359
+Match: true
+Metrics: comparisons=1489, swaps=0, recursiveCalls=142, maxDepth=7
+
